@@ -188,3 +188,14 @@ data/*.sq*
 data/*/*.sq*
 data/*.SQ*
 data/*/*.SQ*
+
+# allow tracked data files ===
+
+# keep data folder structure
+!data/
+!data/**/
+
+# allow csv files in raw and processed data
+!data/00-raw/*.csv
+!data/01-interim/*.csv
+!data/02-processed/*.csv
