@@ -198,4 +198,4 @@ data/*/*.SQ*
 # allow csv files in raw and processed data
 !data/00-raw/*.csv
 !data/01-interim/*.csv
-!data/02-processed/*.csv
+!data/02-processed/*.csv.virtual_documents/
